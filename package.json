@@ -1,0 +1,8 @@
+{
+  "name": "nft-warrenty-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aynp/nft-warrenty-backend",
+  "author": "Aryan <aryan.pathania2003@gmail.com>",
+  "license": "NA"
+}
