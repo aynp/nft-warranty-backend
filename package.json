@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/aynp/nft-warrenty-backend",
   "author": "Aryan <aryan.pathania2003@gmail.com>",
-  "license": "NA"
+  "license": "NA",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
