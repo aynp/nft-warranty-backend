@@ -4,7 +4,6 @@ import Product from '../models/Product';
 const getProduct = async (req: Request, res: Response) => {
   try {
     const { productID } = req.params;
-    console.log('Get request for - ', productID);
 
     const product = await Product.findOne({ _id: productID });
 

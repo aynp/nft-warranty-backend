@@ -15,7 +15,7 @@ const Product = new mongoose.Schema({
     required: true,
   },
   image: {
-    type: Buffer,
+    type: String,
   },
 });
 

@@ -3,6 +3,7 @@ import Product from '../models/Product';
 
 const addProduct = async (req: Request, res: Response) => {
   try {
+    console.log(req.body);
     const { name, productID, price, image } = req.body;
     await Product.create({
       _id: productID,
@@ -14,10 +15,11 @@ const addProduct = async (req: Request, res: Response) => {
       success: true,
       message: `Created a new product ${name}`,
     });
-  } catch ({ message }: any) {
+  } catch ({ err }: any) {
+    console.log('FAILED');
     res.status(400).json({
       success: false,
-      message,
+      err,
     });
   }
 };
