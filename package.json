@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.ts",
   "scripts": {
-    "start": "nodemon server.ts",
+    "start": "node build/server.js",
     "build": "tsc --project ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
